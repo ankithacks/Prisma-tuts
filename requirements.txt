@@ -1,0 +1,9 @@
+npm init -y
+npm i express
+npm i bcrypt validator jsonwebtoken cookie-parser dotenv
+npm i -D nodemon
+npm i -D prisma
+npx init prisma
+npm i @prisma/client
+npx prisma generate
+touch prisma/index.js
