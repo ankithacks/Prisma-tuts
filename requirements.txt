@@ -7,3 +7,5 @@ npx init prisma
 npm i @prisma/client
 npx prisma generate
 touch prisma/index.js
+
+to start up the PRISMA STUDIO WE DO:- npx prisma studio
