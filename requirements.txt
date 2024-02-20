@@ -9,3 +9,4 @@ npx prisma generate
 touch prisma/index.js
 
 to start up the PRISMA STUDIO WE DO:- npx prisma studio
+NOTE:- IN .ENV its just the JWT_SECRET and MONGODB_URL string written only.
