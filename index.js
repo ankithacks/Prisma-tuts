@@ -11,8 +11,10 @@ app.use(express.urlencoded({
 app.use(cookieparser())
 
 const userRouter=require('./routes/userRoutes')
-
 app.use('/api', userRouter)
+
+const postRouter=require('./routes/postRoutes')
+app.use('/api', postRouter)
 
 app.get('/', (req,res)=>{
     res.send("hello localhost")
